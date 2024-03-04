@@ -1,0 +1,1 @@
+ /Users/telamosyeon/StudioProjects/mindbot/.dart_tool/flutter_build/f27ec3407b9c54949273e4fa4b6205d8/native_assets.yaml: 
