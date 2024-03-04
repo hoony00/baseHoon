@@ -260,6 +260,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_riverpod",
+      "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_riverpod-2.4.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_svg",
       "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_svg-2.0.10+1",
       "packageUri": "lib/",
@@ -542,6 +548,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "riverpod",
+      "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/riverpod-2.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "rxdart",
       "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/rxdart-0.27.7",
       "packageUri": "lib/",
@@ -672,6 +684,12 @@
       "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/state_notifier-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -836,7 +854,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-03-04T06:56:46.521103Z",
+  "generated": "2024-03-04T07:52:14.979329Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }

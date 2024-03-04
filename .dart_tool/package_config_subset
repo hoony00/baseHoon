@@ -162,6 +162,10 @@ flutter_native_splash
 2.19
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_native_splash-2.3.7/
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_native_splash-2.3.7/lib/
+flutter_riverpod
+2.17
+file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_riverpod-2.4.10/
+file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_riverpod-2.4.10/lib/
 flutter_svg
 2.19
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/flutter_svg-2.0.10+1/
@@ -342,6 +346,10 @@ pubspec_parse
 2.18
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.3/
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/pubspec_parse-1.2.3/lib/
+riverpod
+2.17
+file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/riverpod-2.5.0/
+file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/riverpod-2.5.0/lib/
 rxdart
 2.12
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/rxdart-0.27.7/
@@ -426,6 +434,10 @@ stack_trace
 2.18
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/stack_trace-1.11.1/
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/stack_trace-1.11.1/lib/
+state_notifier
+2.12
+file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/state_notifier-1.0.0/
+file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/state_notifier-1.0.0/lib/
 stream_channel
 2.19
 file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/stream_channel-2.1.2/

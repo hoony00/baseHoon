@@ -21,6 +21,10 @@ class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMi
 
   @override
   Widget build(BuildContext context) {
+
+    final indexProvider = ref.watch(pageIndexProvider);
+    
+
     return Scaffold(
       extendBody: extendBody, //bottomNavigationBar 아래 영역 까지 그림
       body: Container(
