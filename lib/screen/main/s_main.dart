@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:mindbot/common/common.dart';
 
+import '../../provider/height_widgth_provider.dart';
 import '../../provider/page_index_provider.dart';
 
 class MainScreen extends ConsumerStatefulWidget {
@@ -13,8 +15,6 @@ class MainScreen extends ConsumerStatefulWidget {
 class _MainScreenState extends ConsumerState<MainScreen> {
   @override
   Widget build(BuildContext context) {
-
-
 
     return Scaffold(
       appBar: AppBar(

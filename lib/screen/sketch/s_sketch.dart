@@ -11,9 +11,6 @@ class _SketchScreenState extends State<SketchScreen> {
   @override
   Widget build(BuildContext context) {
 
-
-    print("sketch");
-
     return Visibility(
       visible: true,
         child: Center(child: const Text('SketchScreen', style: TextStyle(color: Colors.blueAccent),)));

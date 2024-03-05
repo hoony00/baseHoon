@@ -32,6 +32,8 @@ class AppState extends State<App> with Nav, WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
+
+
     return MaterialApp(
       navigatorKey: App.navigatorKey,
       // 언어

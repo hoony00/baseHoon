@@ -9,6 +9,7 @@ import 'package:mindbot/screen/my/s_my.dart';
 import 'package:mindbot/screen/sketch/s_sketch.dart';
 import 'package:mindbot/screen/today/s_today.dart';
 
+import '../provider/height_widgth_provider.dart';
 import '../provider/page_index_provider.dart';
 
 class MainFregment extends ConsumerStatefulWidget {
@@ -29,7 +30,9 @@ class MainScreenState extends ConsumerState<MainFregment> with SingleTickerProvi
   @override
   Widget build(BuildContext context) {
 
+
     final indexProvider = ref.watch(pageIndexProvider);
+   ref.watch(bottomHeightProvider.notifier).state = context.screenHeight;
 
     final List<Widget> body = [
       Visibility(visible: indexProvider == 0, child: const TodayScreen()),
@@ -66,9 +69,10 @@ class MainScreenState extends ConsumerState<MainFregment> with SingleTickerProvi
         style: TabStyle.fixedCircle,
         backgroundColor: AppColors.primaryColor,
         elevation: 10, // 그림자
+        height: indexProvider == 2 ? height * 0.0552 :  height * 0.08, // 아이콘 높이
         top: - height * 0.03, // 아이콘 높이
         items: const [
-          TabItem(icon: Icons.calendar_today, title: '투데이'),
+          TabItem(icon: Icons.calendar_today, title: '투데이', ),
           TabItem(icon: Icons.scatter_plot_rounded, title: '마음 스케치'),
           TabItem(icon: Icons.star),
           TabItem(icon: Icons.assessment, title: '마음 캔버스'),
@@ -79,7 +83,6 @@ class MainScreenState extends ConsumerState<MainFregment> with SingleTickerProvi
         onTap: (int i) {
           ref.read(pageIndexProvider.notifier).state = i;
         },
-
       ),
     );
   }
