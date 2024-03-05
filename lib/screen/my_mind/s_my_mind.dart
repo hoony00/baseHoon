@@ -2,17 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:mindbot/common/common.dart';
 
-import '../../provider/height_widgth_provider.dart';
-import '../../provider/page_index_provider.dart';
 
-class MainScreen extends ConsumerStatefulWidget {
-  const MainScreen({super.key});
+
+class MyMindScreen extends ConsumerStatefulWidget {
+  const MyMindScreen({super.key});
 
   @override
-  ConsumerState<MainScreen> createState() => _MainScreenState();
+  ConsumerState<MyMindScreen> createState() => _MainScreenState();
 }
 
-class _MainScreenState extends ConsumerState<MainScreen> {
+class _MainScreenState extends ConsumerState<MyMindScreen> {
   @override
   Widget build(BuildContext context) {
 

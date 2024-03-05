@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:mindbot/main.dart';
-import 'package:mindbot/screen/f_main.dart';
+import 'package:mindbot/screen/s_main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

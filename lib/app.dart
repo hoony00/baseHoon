@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:mindbot/screen/f_main.dart';
+import 'package:mindbot/screen/s_main.dart';
 import 'package:nav/nav.dart';
 
 
