@@ -1,14 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:mindbot/screen/s_main.dart';
+import 'package:mindbot/screen/f_main.dart';
 import 'package:nav/nav.dart';
 
 
 class App extends StatefulWidget {
   static final GlobalKey<NavigatorState> navigatorKey = GlobalKey();
 
-  ///light, dark 테마가 준비되었고, 시스템 테마를 따라가게 하려면 해당 필드를 제거
-  static bool isForeground = true;
 
   const App({super.key});
 
@@ -42,7 +40,7 @@ class AppState extends State<App> with Nav, WidgetsBindingObserver {
       locale: context.locale,
       title: 'Image Finder',
       // 언어
-      home: const MainScreen(),
+      home: const MainFregment(),
     );
   }
 
@@ -50,12 +48,10 @@ class AppState extends State<App> with Nav, WidgetsBindingObserver {
   void didChangeAppLifecycleState(AppLifecycleState state) {
     switch (state) {
       case AppLifecycleState.resumed:
-        App.isForeground = true;
         break;
       case AppLifecycleState.inactive:
         break;
       case AppLifecycleState.paused:
-        App.isForeground = false;
         break;
       case AppLifecycleState.detached:
         break;
