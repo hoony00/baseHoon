@@ -410,6 +410,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "lottie",
+      "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/lottie-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///Users/telamosyeon/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
@@ -854,7 +860,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-03-04T07:52:14.979329Z",
+  "generated": "2024-03-05T08:55:51.495149Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }
