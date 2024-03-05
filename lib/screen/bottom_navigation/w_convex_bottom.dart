@@ -85,27 +85,14 @@ class ConvexSingleNavigation extends ConsumerStatefulWidget {
 class _ConvexSingleNavigationState extends ConsumerState<ConvexSingleNavigation> {
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return ConvexButton.fab(
+      backgroundColor: AppColors.primaryColor,
+      icon: Icons.star,
+      color: Colors.white,
       onTap: () {
         ref.read(pageIndexProvider.notifier).state = 1;
       },
-      child: ConvexButton(
-       child: Padding(
-         padding: const EdgeInsets.all(8.0),
-         child: Icon(Icons.add, size: 40, color: Colors.blueAccent),
-       ),
-        size: 60,
-        thickness: 20,
-        backgroundColor: Colors.black,
-        top: 40,
-
-
-
-
-
-      ),
     );
-
   }
 }
 
