@@ -12,6 +12,6 @@ class _CanversScreenState extends State<CanversScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('CanversScreen');
+    return Center(child: const Text('CanversScreen', style: TextStyle(color: Colors.blueAccent, fontSize: 30),));
   }
 }

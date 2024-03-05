@@ -10,6 +10,6 @@ class MyScreen extends StatefulWidget {
 class _MyScreenState extends State<MyScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Text('MyScreen');
+    return Center(child: const Text('MyScreen', style: TextStyle(color: Colors.blueAccent, fontSize: 30),));
   }
 }
