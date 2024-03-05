@@ -40,8 +40,6 @@ class _ConvexBottomNavigationState extends ConsumerState<ConvexBottomNavigation>
         cornerRadius: 15,
        // height: indexProvider == 2 ? height * 0.056 : height * 0.09,
 
-
-
         items: const [
           TabItem(icon: Icons.calendar_today_outlined, title: '투데이'),
           TabItem(icon: Icons.scatter_plot_outlined, title: '마음 스케치'),

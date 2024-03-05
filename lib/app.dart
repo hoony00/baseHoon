@@ -42,7 +42,7 @@ class AppState extends State<App> with Nav, WidgetsBindingObserver {
       locale: context.locale,
       title: 'Image Finder',
       // 언어
-      home: const MainFregment(),
+      home: const MainScreen(),
     );
   }
 
