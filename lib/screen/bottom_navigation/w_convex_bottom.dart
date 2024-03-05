@@ -24,58 +24,74 @@ class _ConvexBottomNavigationState extends ConsumerState<ConvexBottomNavigation>
     final height = context.screenHeight;
 
 
-    return indexProvider == 2  ?
-    ConvexSingleNavigation() :
+    return /*indexProvider == 2  ?
+    ConvexSingleNavigation() :*/
 
-      ConvexAppBar.badge(
-      {
-        0: alarmBadge != 0 ? alarmBadge.toString() : null,
-        1: Icons.assistant_photo,
-        2: Colors.redAccent,
-      },
-      badgeMargin: const EdgeInsets.only(left: 30, bottom: 40),
+      StyleProvider(
+        style: ConvexStyleProvider(height: height),
+        child: ConvexAppBar.badge(
+        {
+          0: alarmBadge != 0 ? alarmBadge.toString() : null,
+        },
+        badgeMargin:  EdgeInsets.only(left: height * 0.028, bottom: height * 0.04),
+        style: TabStyle.fixedCircle,
+        backgroundColor: AppColors.primaryColor,
+        elevation: 7,
+        cornerRadius: 15,
+       // height: indexProvider == 2 ? height * 0.056 : height * 0.09,
 
-      style: TabStyle.fixedCircle,
-      backgroundColor: AppColors.primaryColor,
-      elevation: 10,
-      // 그림자
-      cornerRadius: 15,
-      // 모서리 둥글기
-      height: indexProvider == 2 ? height * 0.0552 : height * 0.08,
-      // 아이콘 높이
-      top: -height * 0.03,
-      // 아이콘 높이
 
-      items: const [
-        TabItem(
-          icon: Icons.calendar_today,
-          title: '투데이',
-        ),
-        TabItem(icon: Icons.scatter_plot_rounded, title: '마음 스케치'),
-        TabItem(icon: Icons.star),
-        TabItem(icon: Icons.assessment, title: '마음 캔버스'),
-        TabItem(icon: Icons.person_2_outlined, title: 'my'),
-      ],
 
-      initialActiveIndex: 0,
-      // 초기값
-      onTap: (int i) {
-        if (i == 0) {
-          // 선택된 인덱스의 알림벳지 카운트 조절
-          print("투데이");
-          ref.read(alarmBadgeProvider.notifier).state++;
-        } else if (i == 1) {
-          ref.read(alarmBadgeProvider.notifier).state = 0;
-        }
-
-        // 화면 이동
-        ref.read(pageIndexProvider.notifier).state = i;
-      },
-    );
+        items: const [
+          TabItem(icon: Icons.calendar_today_outlined, title: '투데이'),
+          TabItem(icon: Icons.scatter_plot_outlined, title: '마음 스케치'),
+          TabItem(icon: Icons.face_6),
+          TabItem(icon: Icons.assessment_outlined, title: '마음 캔버스'),
+          TabItem(icon: Icons.person_2_outlined, title: 'my'),
+        ],
+        
+        initialActiveIndex: 0,
+        // 초기값
+        onTap: (int i) {
+          if (i == 0) {
+            // 선택된 인덱스의 알림벳지 카운트 조절
+            print("투데이");
+            ref.read(alarmBadgeProvider.notifier).state++;
+          } else if (i == 1) {
+            ref.read(alarmBadgeProvider.notifier).state = 0;
+          }
+        
+          // 화면 이동
+          ref.read(pageIndexProvider.notifier).state = i;
+        },
+            ),
+      );
   }
 }
 
-class ConvexSingleNavigation extends ConsumerStatefulWidget {
+class ConvexStyleProvider extends StyleHook {
+  late double height;
+
+  ConvexStyleProvider({required this.height});
+
+  @override
+  double get activeIconSize => height * 0.05;
+
+  @override
+  double get activeIconMargin => 10;
+
+  @override
+  double get iconSize => height * 0.03;
+
+  @override
+  TextStyle textStyle(Color color, String? fontFamily) {
+    return TextStyle(color: color, fontSize: height * 0.016, fontFamily: fontFamily);
+  }
+
+
+}
+
+/*class ConvexSingleNavigation extends ConsumerStatefulWidget {
   const ConvexSingleNavigation({super.key});
 
   @override
@@ -94,5 +110,5 @@ class _ConvexSingleNavigationState extends ConsumerState<ConvexSingleNavigation>
       },
     );
   }
-}
+}*/
 
