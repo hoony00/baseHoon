@@ -73,6 +73,11 @@ dependencies:
   json_annotation: ^4.8.0
   change_app_package_name: ^1.1.0
 
+  get:
+    git:
+      url: htts 주소
+      ref: '5a4d0ef'
+
 
 dev_dependencies:
   flutter_test:
