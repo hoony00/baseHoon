@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		9WZF5BxJws6/MeymbTmbIQqJYGM=
+		Ogqh5c/CBw3RTMwh8Q8x50EICq0=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		HMm5bcrfFgZToYVuwmYgjOr93Xw=
+		KIYz9/41V/wKDr6gMWEvWunVP80=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		wB92rmFPpetR/071JqsHWE4ZMx8=
+		n5VV+JhMGO5fv7pGgRuFhXjcJ6Y=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		DSRNQczh+/9L7h6aKpwkKJkvy3Y=
+		ug8MPrbozGpLwXj3GMpyW7C7JGU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		MNgcOQYsIAg3uDj0bPqU/H792eU=
+		z9f3QEA8ab2hsz0OmBZ77kb2V5I=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/image/darkmode/moon.png</key>
 		<data>
@@ -96,6 +96,10 @@
 		<data>
 		LAfKQ9ExLx/ePHt7GnwG1vMuAEU=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/json/lottie/poketmon.json</key>
+		<data>
+		/I2eUxNvL9/7Itj1DMsiJOtgbz0=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/translations/en.json</key>
 		<data>
 		xgIroRflBQ+ENBId13NFKWIr9hw=
@@ -118,7 +122,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		tnTij7gyqF4JoJDF0kd127DUmHc=
+		GzWVvmdwBDAPM90sop3QUfqESME=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -385,7 +389,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rs3n64uB92Ag4pqRcUbTsF7v7KluPRRjae/86GAXIlA=
+			P9T63NKxztygi+ZKjuNRXhjuJhS9hUqcZWJ4oBvd904=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -399,21 +403,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xBGq8mKnKYWuUSwdk/d4I84w0YEaQUpHVEwy/5URif8=
+			NoLFH9wnwkaZunoXUSBq8eiX8lXkwIU1W8SZz9zhvlg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHghyo+dgPMyfSY3AbnzeExMSjMk28RCGsFhAXAdQ2g=
+			LAXvMnnPeSO560fRguMDo6dZxpNS0pZ76Rxig+GaXEs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			We3Tg/2QKq0WVF1PPaMllUmUacIMcpnGNb8AC90O6R4=
+			ygdyKniL5ZNdRvJ7d50x+WpMDZDEcfU0A2SDnckd9iY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -427,7 +431,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+DffjnOFs6qM3V9pv53L1ks7SE1/MCyGBJfW2Fby/dI=
+			rkhMp/FWC4+cR3zEHJRYUce7TD1XGIkyet+pRtnZJHE=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/image/darkmode/moon.png</key>
@@ -472,6 +476,13 @@
 			x/89MLb8I6BPUn/cCtHvMH+xD04gKPH5Ca0oYPj23tk=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/json/lottie/poketmon.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			32guatZhYYL1Jm/skn6uhtTCQ5ruG/N0+stAu2bq3P4=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/translations/en.json</key>
 		<dict>
 			<key>hash2</key>
@@ -511,7 +522,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xjaxt2IhRONZKvb4egaQ653HcyFYjJzxAukR+c9/adw=
+			QcXZcVk9dSGPRRkpeK2lLMejAkQ3UzylbOUmXvtoD8w=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag</key>

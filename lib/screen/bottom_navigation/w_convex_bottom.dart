@@ -44,9 +44,7 @@ class _ConvexBottomNavigationState
         // lottie 아이콘 적용
         TabItem(
           icon: Lottie.asset('assets/json/lottie/poketmon.json',
-              width: height * 0.03,
-              height: height * 0.04,
-              fit: BoxFit.cover,),
+              fit: BoxFit.fitWidth,),
         ),
         TabItem(icon: Icons.assessment_outlined, title: '마음 캔버스'),
         TabItem(icon: Icons.person_2_outlined, title: 'my'),
@@ -91,3 +89,5 @@ class ConvexStyleProvider extends StyleHook {
         color: color, fontSize: height * 0.016, fontFamily: fontFamily);
   }
 }
+
+
